@@ -66,6 +66,31 @@ const Projects = () => {
               </div>
             </div>
           </div>
+          <div
+            style={{
+              backgroundImage: `url(https://static.vecteezy.com/system/resources/thumbnails/007/343/533/small/yellow-quiz-time-banner-with-comic-style-background-suitable-for-use-for-promotional-designs-vector.jpg)`,
+            }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            <div className="font-bold text-2xl opacity-0 group-hover:opacity-100 text-center">
+              <span>Quizzical</span>
+              <div className="pt-8 text-center">
+                <a href="https://svs-quizzical.netlify.app/" target="__blank">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/suyashvsingh/quizzical"
+                  target="__blank"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
