@@ -75,7 +75,7 @@ const Skills = () => {
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 flex justify-center items-center">
             <img
-              src="https://cdn.icon-icons.com/icons2/2699/PNG/512/mongodb_logo_icon_170943.png"
+              src="https://img.icons8.com/color/480/mongodb.png"
               className="w-20 mx-auto"
               alt="MongoDB"
             />
