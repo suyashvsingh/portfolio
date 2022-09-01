@@ -12,7 +12,35 @@ const Projects = () => {
             Projects
           </p>
         </div>
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 pt-8">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 pt-8
+          <div
+            style={{
+              backgroundImage: `url(https://in.pinterest.com/pin/637189047276625644/)`,
+            }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            <div className="font-bold text-2xl opacity-0 group-hover:opacity-100 text-center">
+              <span>Pixify</span>
+              <div className="pt-8 text-center">
+                <a
+                  href="https://svs-pixify.vercel.app/"
+                  target="__blank"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/suyashvsingh/amazon-clone"
+                  target="__blank"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
           <div
             style={{
               backgroundImage: `url(https://images.unsplash.com/photo-1592210454359-9043f067919b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8d2VhdGhlcnxlbnwwfHwwfHw%3D&w=1000&q=80)`,
