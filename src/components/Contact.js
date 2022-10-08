@@ -43,7 +43,7 @@ const Contact = () => {
         <a href="https://twitter.com/suyashvsingh" target="__blank">
           <div className="cursor-pointer shadow-md shadow-[#040c16] hover:scale-110 duration-500 flex justify-center items-center">
             <img
-              src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c53e.png"
+              src="https://www.iconpacks.net/icons/2/free-twitter-logo-icon-2429-thumb.png"
               className="h-14 mx-auto"
               alt="twitter"
             />
