@@ -1,0 +1,46 @@
+[
+  {
+    "name": "C++",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png"
+  },
+  {
+    "name": "HTML",
+    "imageUrl": "https://cdn-icons-png.flaticon.com/512/732/732212.png?w=360"
+  },
+  {
+    "name": "Tailwind CSS",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png"
+  },
+  {
+    "name": "JavaScript",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+  },
+  {
+    "name": "NodeJS",
+    "imageUrl": "https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_f0b606abb6d19089febc9faeeba5bc05/nodejs-development-services.png"
+  },
+  {
+    "name": "Next.js",
+    "imageUrl": "https://www.datocms-assets.com/75941/1657707878-nextjs_logo.png"
+  },
+  {
+    "name": "MongoDB",
+    "imageUrl": "https://img.icons8.com/color/480/mongodb.png"
+  },
+  {
+    "name": "MySQL",
+    "imageUrl": "https://www.freepnglogos.com/uploads/logo-mysql-png/logo-mysql-mysql-logo-png-images-are-download-crazypng-21.png"
+  },
+  {
+    "name": "Linux",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Icons8_flat_linux.svg/768px-Icons8_flat_linux.svg.png"
+  },
+  {
+    "name": "Docker",
+    "imageUrl": "https://azuredays.com/wp-content/uploads/2020/06/docker-logo.png"
+  },
+  {
+    "name": "Kubernetes",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Kubernetes_logo_without_workmark.svg/2109px-Kubernetes_logo_without_workmark.svg.png"
+  }
+]

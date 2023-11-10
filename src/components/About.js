@@ -16,12 +16,13 @@ const About = () => {
           <div className="text-4xl font-bold sm:text-right">
             <p>Hi, know more about me</p>
           </div>
-          <div>
-            I'm pursuing my Integrated B.Tech and M.Tech at the Indian Institute
-            of Information Technology, Gwalior, from 2020-2025. I have a deep
-            interest in Web development and Competitive Programming. I primarily
-            work with the MERN stack. I'm also familiar with Redux Toolkit,
-            Tailwind CSS and Docker.
+          <div className="text-justify">
+            As a web developer, I am passionate about creating innovative and
+            user-friendly web applications using cutting-edge technologies. I am
+            currently pursuing Integrated B.Tech and M.Tech in Information
+            Technology from Indian Institute of Information Technology (IIIT
+            Gwalior), where I have acquired strong skills in Web Development,
+            Cloud Computing and Machine Learning.
           </div>
         </div>
       </div>

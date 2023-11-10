@@ -1,0 +1,30 @@
+[
+  {
+    "name": "RCE70",
+    "demoUrl": "https://rce70.vercel.app/",
+    "codeUrl": "https://github.com/suyashvsingh/rce70-client",
+    "backgroundImageUrl": "/rce70.jpeg"
+  },
+  {
+    "name": "Pixify",
+    "demoUrl": "https://svs-pixify.vercel.app/",
+    "codeUrl": "https://github.com/suyashvsingh/amazon-clone",
+    "backgroundImageUrl": "/pixify.jpeg"
+  },
+  {
+    "name": "Quizzical",
+    "demoUrl": "https://svs-quizzical.netlify.app/",
+    "codeUrl": "https://github.com/suyashvsingh/quizzical",
+    "backgroundImageUrl": "/quizzical.jpeg"
+  },
+  {
+    "name": "Amazon-clone",
+    "codeUrl": "https://github.com/suyashvsingh/amazon-clone",
+    "backgroundImageUrl": "/amazon-clone.jpeg"
+  },
+  {
+    "name": "WeatherApp",
+    "codeUrl": "https://github.com/suyashvsingh/weather",
+    "backgroundImageUrl": "/weather.jpeg"
+  }
+]

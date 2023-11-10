@@ -1,4 +1,5 @@
 import React from "react";
+import projects from "../data/projects.json";
 
 const Projects = () => {
   return (
@@ -13,141 +14,32 @@ const Projects = () => {
           </p>
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 pt-8">
-
-        <div
-            style={{
-              backgroundImage: `url(https://images.hdqwalls.com/wallpapers/progamming-code-4k-nt.jpg)`,
-            }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            <div className="font-bold text-2xl opacity-0 group-hover:opacity-100 text-center">
-              <span>RCE70</span>
-              <div className="pt-8 text-center">
-                <a
-                  href="https://rce70.vercel.app/"
-                  target="__blank"
-                >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
-                <a
-                  href="https://github.com/suyashvsingh/rce70-client"
-                  target="__blank"
-                >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
-                  </button>
-                </a>
+          {projects.map((project) => (
+            <div
+              style={{
+                backgroundImage: `url(${project.backgroundImageUrl})`,
+              }}
+              className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            >
+              <div className="font-bold text-2xl opacity-0 group-hover:opacity-100 text-center duration-500">
+                <span>{project.name}</span>
+                <div className="pt-8 text-center">
+                  {project.demoUrl && (
+                    <a href={project.demoUrl} target="__blank">
+                      <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                        Demo
+                      </button>
+                    </a>
+                  )}
+                  <a href={project.codeUrl} target="__blank">
+                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                      Code
+                    </button>
+                  </a>
+                </div>
               </div>
             </div>
-          </div>
-
-          <div
-            style={{
-              backgroundImage: `url(https://i.pinimg.com/originals/a6/e7/46/a6e7468371ba3b3c3dc212b3ef54cd9c.jpg)`,
-            }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            <div className="font-bold text-2xl opacity-0 group-hover:opacity-100 text-center">
-              <span>Pixify</span>
-              <div className="pt-8 text-center">
-                <a href="https://svs-pixify.vercel.app/" target="__blank">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
-                <a
-                  href="https://github.com/suyashvsingh/amazon-clone"
-                  target="__blank"
-                >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div
-            style={{
-              backgroundImage: `url(https://www.smartship.com/sites/default/files/smartship/get-delivery.png)`,
-            }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            <div className="font-bold text-2xl opacity-0 group-hover:opacity-100 text-center">
-              <span>Amazon-clone</span>
-              <div className="pt-8 text-center">
-                <a
-                  href="https://svs-amazon-clone.herokuapp.com/"
-                  target="__blank"
-                >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
-                <a
-                  href="https://github.com/suyashvsingh/amazon-clone"
-                  target="__blank"
-                >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div
-            style={{
-              backgroundImage: `url(https://static.vecteezy.com/system/resources/thumbnails/007/343/533/small/yellow-quiz-time-banner-with-comic-style-background-suitable-for-use-for-promotional-designs-vector.jpg)`,
-            }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            <div className="font-bold text-2xl opacity-0 group-hover:opacity-100 text-center">
-              <span>Quizzical</span>
-              <div className="pt-8 text-center">
-                <a href="https://svs-quizzical.netlify.app/" target="__blank">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
-                <a
-                  href="https://github.com/suyashvsingh/quizzical"
-                  target="__blank"
-                >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            style={{
-              backgroundImage: `url(https://images.unsplash.com/photo-1592210454359-9043f067919b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8d2VhdGhlcnxlbnwwfHwwfHw%3D&w=1000&q=80)`,
-            }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            <div className="font-bold text-2xl opacity-0 group-hover:opacity-100 text-center">
-              <span>WeatherApp</span>
-              <div className="pt-8 text-center">
-                <a href="https://svs-weather.herokuapp.com/" target="__blank">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
-                <a
-                  href="https://github.com/suyashvsingh/weather"
-                  target="__blank"
-                >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
     </div>
