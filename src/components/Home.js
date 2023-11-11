@@ -15,7 +15,7 @@ const Home = () => {
         <p className="text-[#8892b0] py-4 max-w-[700px]"></p>
         <div className="flex">
           <Link to="projects" smooth={true} duration={500}>
-            <button className="text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-cyan-800 hover:border-cyan-800 group">
+            <button className="text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-cyan-800 hover:border-cyan-800 group rounded">
               View Projects
               <span className="group-hover:rotate-90 duration-300">
                 <HiArrowNarrowRight className="ml-3" />
@@ -26,7 +26,7 @@ const Home = () => {
             href="https://drive.google.com/file/d/1xUivw3KWIKcYSBzenlkIKKMarwtGvYDn/view?usp=sharing"
             target="__blank"
           >
-            <button className="text-white border-2 px-6 py-3 my-2 ml-4 flex items-center hover:bg-cyan-800 hover:border-cyan-800 group">
+            <button className="text-white border-2 px-6 py-3 my-2 ml-4 flex items-center hover:bg-cyan-800 hover:border-cyan-800 group rounded">
               View Resume
               <span className="group-hover:rotate-90 duration-300">
                 <HiArrowNarrowRight className="ml-3" />
