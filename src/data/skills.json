@@ -36,6 +36,10 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Icons8_flat_linux.svg/768px-Icons8_flat_linux.svg.png"
   },
   {
+    "name": "GitHub Actions",
+    "imageUrl": "https://avatars.githubusercontent.com/u/44036562?s=280&v=4"
+  },
+  {
     "name": "Docker",
     "imageUrl": "https://azuredays.com/wp-content/uploads/2020/06/docker-logo.png"
   },
