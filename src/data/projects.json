@@ -2,13 +2,13 @@
   {
     "name": "RCE70",
     "demoUrl": "https://rce70.vercel.app/",
-    "codeUrl": "https://github.com/suyashvsingh/rce70-client",
+    "codeUrl": "https://github.com/suyashvsingh/RCE70",
     "backgroundImageUrl": "/rce70.jpeg"
   },
   {
     "name": "Pixify",
     "demoUrl": "https://svs-pixify.vercel.app/",
-    "codeUrl": "https://github.com/suyashvsingh/amazon-clone",
+    "codeUrl": "https://github.com/suyashvsingh/Pixify",
     "backgroundImageUrl": "/pixify.jpeg"
   },
   {
